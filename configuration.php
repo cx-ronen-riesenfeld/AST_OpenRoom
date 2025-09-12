@@ -2,7 +2,7 @@
 //configuration.php
 /*
 *This file contains configuration information required for OpenRoom's install.php
-test 11444
+test 
 */
 
 //Administrative User
@@ -158,6 +158,7 @@ $limit_total = array(240,"day");
 $limit_frequency = array(0,"day");
 $limit_window = array(6,"month");
 ?>
+
 
 
 
