@@ -15,7 +15,7 @@
 	else{
 		
 		$op = isset($_REQUEST["op"])?$_REQUEST["op"]:"";
-		$optionformname = isset($_REQUEST["optionformname"])?$_REQUEST["optionformname"]:"";
+		$optionformname = isset($_REQUEST["optionformname"])?mysql_real_escape_string($_REQUEST["optionformname"]):"";
 		
 		$successmsg = "";
 		$errormsg = "";
